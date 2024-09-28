@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height: 100%;
+    background-color: aqua;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-weight: 200;
+    font-size: 25px;
+}
+#head{
+    width:50%;
+    padding: 20px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+    align-items: center;
+    gap:10px;
+    
+}
+#timer{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#check{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#score{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#main{
+    width: 50%;
+    padding: 50px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    border-radius: 0px 0px 20px 20px;
+
+}
+#circles{
+    width: 100%;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px;
+    cursor: pointer;
+    
+}
+#box{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
